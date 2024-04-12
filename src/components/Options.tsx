@@ -16,7 +16,7 @@ export default function Options() {
     return (
         <div className="flex flex-col min-h-screen">
             <div className="p-4 text-left">
-                <img src="/logo.png" alt="Logo" className="h-8" />
+                <img src="./logo.png" alt="Logo" className="h-8" />
             </div>
 
             <div className="flex-grow flex items-center justify-center">
@@ -26,15 +26,15 @@ export default function Options() {
 
                     <div className="flex items-center justify-between mb-8">
                         <div className={`option text-center ${selectedOptions.has('option1') ? 'border-pink-500 border-4' : 'border-gray-200 border-2'} rounded-xl p-2`} onClick={() => handleOptionSelect('option1')}>
-                            <img src="/option1.png" alt="Option 1" className="w-250 h-250 mb-4" />
+                            <img src="./option1.png" alt="Option 1" className="w-250 h-250 mb-4" />
                             <input type="checkbox" id="option1" name="options" className="mr-2" checked={selectedOptions.has('option1')} onChange={() => { }} />
                         </div>
                         <div className={`option text-center m-8 ${selectedOptions.has('option2') ? 'border-pink-500 border-4' : 'border-gray-200 border-2'} rounded-xl p-2`} onClick={() => handleOptionSelect('option2')}>
-                            <img src="/option1.png" alt="Option 2" className="w-250 h-250 mb-4" />
+                            <img src="./option1.png" alt="Option 2" className="w-250 h-250 mb-4" />
                             <input type="checkbox" id="option2" name="options" className="mr-2 " checked={selectedOptions.has('option2')} onChange={() => { }} />
                         </div>
                         <div className={`option text-center ${selectedOptions.has('option3') ? 'border-pink-500 border-4' : 'border-gray-200 border-2'} rounded-xl p-2`} onClick={() => handleOptionSelect('option3')}>
-                            <img src="/option1.png" alt="Option 3" className="w-250 h-250 mb-4" />
+                            <img src="./option1.png" alt="Option 3" className="w-250 h-250 mb-4" />
                             <input type="checkbox" id="option3" name="options" className="rounded-full mr-2" checked={selectedOptions.has('option3')} onChange={() => { }} />
                         </div>
                     </div>

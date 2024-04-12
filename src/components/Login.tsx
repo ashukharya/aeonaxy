@@ -2,7 +2,7 @@ export default function Login() {
     return (
         <div className="min-h-screen flex">
             <div className="w-1/2 bg-light">
-                <img src="/imag.png" alt="" className="max-h-screen w-full " />
+                <img src="./imag.png" alt="" className="max-h-screen w-full " />
             </div>
             <div className="w-1/2 flex justify-center items-center px-12">
                 <div className="bg-white p-12 w-full max-w-lg">

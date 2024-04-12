@@ -13,7 +13,7 @@ export default function EditProfile() {
     return (
         <div className="flex flex-col min-h-screen">
             <div className="p-4 text-left">
-                <img src="/logo.png" alt="Logo" className="h-8" />
+                <img src="./logo.png" alt="Logo" className="h-8" />
             </div>
 
             <div className="flex-grow flex items-center justify-center">
