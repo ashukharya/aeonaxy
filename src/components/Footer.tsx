@@ -23,10 +23,10 @@ export default function Footer() {
                 </div>
 
             </div>
-            <footer className="bg-gray-100">
+            <footer className="bg-gray-100 text-center">
                 <div className="max-w-7xl mx-auto px-2 sm:px-4 py-2">
                     <div className="flex gap-8 sm:grid-cols-2 md:text-left text-center">
-                        <div className="flex gap-8 sm:grid-cols-2 md:text-left text-center">
+                        <div className=" grid sm:grid-cols-6 gap-8 text-center">
                             <div className="max-w-[250px]">
                                 <ul className="flex flex-col mt-2 space-y-2">
                                     <li>
@@ -118,11 +118,11 @@ export default function Footer() {
                                     <li><a href="#" className="text-gray-600 hover:text-gray-900">Creative Process</a></li>
                                     <li><a href="#" className="text-gray-600 hover:text-gray-900">Design Industry Trends</a></li>
                                 </ul>
+                                <div className="text-gray-600">
+                                    <p className="mt-24">20,501,853 shots dribbbled</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="text-center mt-4 text-gray-600">
-                        <p className="text-right">20,501,853 shots dribbbled</p>
                     </div>
                 </div>
             </footer>

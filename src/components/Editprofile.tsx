@@ -17,14 +17,14 @@ export default function EditProfile() {
             </div>
 
             <div className="flex-grow flex items-center justify-center">
-                <div className="max-w-lg w-full bg-white rounded-md">
+                <div className="max-w-lg w-full bg-white rounded-md p-8 lg:p-0">
                     <h1 className="text-3xl font-bold text-center mb-4">Welcome! Let's create your profile</h1>
                     <p className="text-center text-gray-500 mb-8 leading-relaxed">Let others get to know you better! You can do these later</p>
 
                     <div className="flex flex-col  mb-16">
                         <h2 className="text-xl font-semibold text-left mb-8">Add an Avatar</h2>
                         <label htmlFor="profile-image" className="relative cursor-pointer flex items-center">
-                            <div className="w-40 h-40 bg-gray-200 rounded-full flex items-center justify-center mr-4">
+                            <div className="lg:w-40 lg:h-40 bg-gray-200  w-20 h-20 rounded-full flex items-center justify-center mr-4">
                                 {profileImage ? (
                                     <img src={profileImage} alt="Profile" className="w-full h-full rounded-full object-cover" />
                                 ) : (
